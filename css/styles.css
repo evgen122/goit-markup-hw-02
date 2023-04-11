@@ -78,8 +78,7 @@ body {
   font-style: normal;
 }
 
-.contact-email,
-.contact-phone {
+.contact {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -88,12 +87,9 @@ body {
   color: var(--color-body);
 }
 
-.contact-email:hover,
-.contact-email:focus,
-.contact-email:active,
-.contact-phone:hover,
-.contact-phone:focus,
-.contact-phone:active {
+.contact:hover,
+.contact:focus,
+.contact:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
