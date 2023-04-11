@@ -1,3 +1,14 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+:root {
+  --logo-color-web: #4d5ae5;
+  --color-clic: #404bbf;
+}
+
 .list {
   list-style: none;
 }
@@ -11,7 +22,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #4d5ae5;
+  color: var(--logo-color-web);
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -47,22 +58,43 @@
   color: #2e2f42;
 }
 
-.contact-email {
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-clic);
 }
 
+.menu-contact {
+  font-style: normal;
+}
+
+.contact-email,
 .contact-phone {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--logo-color-web);
+}
+
+.contact-email:hover,
+.contact-email:focus,
+.contact-email:active,
+.contact-phone:hover,
+.contact-phone:focus,
+.contact-phone:active {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-clic);
 }
 
 .page-title {
@@ -101,7 +133,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--logo-color-web);
 }
 
 .text-background-dark {
@@ -129,6 +161,28 @@
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+
+.main-btn:hover,
+.main-btn:focus {
+  cursor: pointer;
+  background-color: #404bbf;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+/* ============SECTION_4 COLLABORATOR================ */
+.collaborator {
+  background-color: #f4f4fd;
+}
+.card {
+  background-color: #fff;
+}
 /* ============FUTER================ */
 .futer {
   background-color: #2e2f42;
@@ -150,7 +204,7 @@
 
 .nav-button:hover,
 .nav-button:focus {
-  background-color: #404bbf;
+  background-color: var(--color-clic);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 
