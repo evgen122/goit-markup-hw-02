@@ -1,12 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
+  color: var(--color-body);
   background-color: #ffffff;
 }
 
 :root {
   --logo-color-web: #4d5ae5;
   --color-clic: #404bbf;
+  --color-body: #434455;
 }
 
 .list {
@@ -69,6 +70,10 @@ body {
   color: var(--color-clic);
 }
 
+.address {
+  font-style: normal;
+}
+
 .menu-contact {
   font-style: normal;
 }
@@ -80,7 +85,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--logo-color-web);
+  color: var(--color-body);
 }
 
 .contact-email:hover,
@@ -133,7 +138,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--logo-color-web);
+  color: var(--color-body);
 }
 
 .text-background-dark {
